@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-us-compatible" content="ie-edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1">
+    <!-- Name of Camera Web App -->
+    <title>Ken's Camera Web App</title>
+
+    <!-- Link to main style sheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <!-- Camera -->
+      <main id="camera">
+
+        <!-- Camera sensor -->
+        <canvas id="canvas--sensor"></canvas>
+
+        <!-- Camera View -->
+        <video id="camera--view" autoplay playinline></video>
+
+        <!-- Camera Output -->
+        <img src="//:0" alt="" id="camera--output">
+
+        <!-- Camera Trigger -->
+        <button id="camera--trigger">Take a picture</button>
+      </main>
+
+    <!-- Reference to your JavaScript file -->
+    <script src="app.js" charset="utf-8"></script>
+    
+  </body>
+</html>
